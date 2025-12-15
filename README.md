@@ -11,6 +11,16 @@
 
 ![](https://i.imgur.com/0HRnDAh.png)
 
+# Quick start
+
+```shell
+python3.13 -m venv .venv
+source .venv/bin/activate
+pip install --requirement requirements.txt
+
+python3 MEA.py
+```
+
 ## **A. About ME Analyzer**
 
 ME Analyzer is a tool which parses Intel Engine, Intel Graphics and their Independent firmware from the following families:
